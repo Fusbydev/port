@@ -1,58 +1,74 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 body {
     background-color: black;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
+
 @font-face {
-font-family: 'astegra';
-src:
-    url('Astegra regular.ttf') format('truetype');
+    font-family: 'astegra';
+    src:
+        url('Astegra regular.ttf') format('truetype');
 }
 
-nav{
-    background-color: #FFF5F3!important;
+nav {
+    background-color: #FFF5F3 !important;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
-nav img{
+
+nav img {
     width: 100px;
 }
+
 #spiralText {
-    color: white;
+    color: rgb(32, 32, 32);
 }
+
 .ne {
-    color: white;
+    color: rgb(32, 32, 32);
 }
+
 .category {
     color: white;
 }
+
 .nav-link {
-    color: #061D25!important;
+    color: #061D25 !important;
 }
-#pills-profile, #pills-home, #pills-contact {
-    color: white;
+
+#pills-profile,
+#pills-home,
+#pills-contact {
+    color: rgb(32, 32, 32);
 }
+
 .card {
-    background-color: transparent!important;
+    background-color: transparent !important;
+    border: none;
 }
+
 .nav-link {
     color: black;
     font-family: 'astegra', sans-serif;
 }
+
 h3 {
     color: white;
 }
 
-.couple, .date {
-    color: white;
+.couple,
+.date {
+    color: black;
     font-family: "astegra";
 }
+
 .date {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 2px;
 }
-.bg{
+
+.bg {
     background-image: url("0008.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -60,168 +76,217 @@ h3 {
     height: 500px;
     background-attachment: fixed;
 }
+
 .container1 {
-height: auto;
-top: 0;
-left: 0;
-width: 100%; /* Set width to 100% */
-display: flex;
-justify-content: center;
-background-color: #061D25;
-padding: 30px;
+    height: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Set width to 100% */
+    display: flex;
+    justify-content: center;
+    background-color: #e6e6e6;
+    padding: 30px;
 }
+
 .image-cont {
     overflow: hidden;
 }
+
 a.no-decoration {
     text-decoration: none;
-  }
+}
+
 .ph {
     transition: transform 0.3s ease;
     cursor: pointer;
 }
+
 .ph:hover {
     transform: scale(1.05);
     opacity: 0.8;
 }
+
 .overlay {
     position: relative;
     background-color: rgba(0, 0, 0, 0.5);
     height: 500px;
 }
+
 .img {
-display: flex; /* Enable flexbox */
-align-items: center; /* Center vertically */
-justify-content: center; /* Center horizontally */
-height: 100%; /* Make it take up the full height of its parent */
+    display: flex;
+    /* Enable flexbox */
+    align-items: center;
+    /* Center vertically */
+    justify-content: center;
+    /* Center horizontally */
+    height: 100%;
+    /* Make it take up the full height of its parent */
 }
+
 video {
-width: auto;
+    width: auto;
 }
 
 .img img {
-max-height: 60%; /* Ensure the image doesn't overflow its container */
-border-radius: 70px;
+    max-height: 60%;
+    /* Ensure the image doesn't overflow its container */
+    border-radius: 70px;
 }
+
 .container2 {
-height: auto;
-top: 0;
-left: 0;
-width: 100%; /* Set width to 100% */
-display: flex;
-justify-content: center;
-background-color: #061D25;
-padding: 30px;
+    height: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Set width to 100% */
+    display: flex;
+    justify-content: center;
+    background-color: #acacac;
+    padding: 30px;
 }
+
 .container4 {
-height: auto;
-top: 0;
-left: 0;
-width: 100%; /* Set width to 100% */
-display: flex;
-justify-content: center;
-background-color: #061D25;
-padding: 30px;
+    height: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Set width to 100% */
+    display: flex;
+    justify-content: center;
+    background-color: #b1b1b1;
+    padding: 30px;
 }
+
 .container3 {
-height: auto;
-top: 0;
-left: 0;
-width: 100%; /* Set width to 100% */
-display: flex;
-justify-content: center;
-background-color: #061D25;
-padding: 30px;
+    height: auto;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Set width to 100% */
+    display: flex;
+    justify-content: center;
+    background-color: #e6e6e6;
+    padding: 30px;
 }
+
 h1 {
-color: white;
-font-family: "astegra";
-font-size: 60px;
+    color: white;
+    font-family: "astegra";
+    font-size: 60px;
 }
+
 .text-content {
-width: 100%;
+    width: 100%;
 
 }
+
 p {
-color: white;
+    color: white;
 }
+
 .ph {
-width: 100%;
+    width: 100%;
 }
+
 footer {
-height: auto;
-padding: 10px;
-background-color: #031318;
+    height: auto;
+    padding: 10px;
+    background-color: #031318;
 }
+
 .info a {
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: rgb(32, 32, 32);
 }
+
 .info i {
-font-size: 20px;
+    font-size: 20px;
 }
+
 .jes {
-height: auto;
-width: 100%;
-background-color: #061D25;
+    height: auto;
+    width: 100%;
+    background-color: #061D25;
 }
+
 .jes h2 {
-font-family: 'astegra';
-color: white;
+    font-family: 'astegra';
+    color: white;
 }
-.q  {
-font-family: "astegra";
-color: white;
+
+.q {
+    font-family: "astegra";
+    color: black;
 
 }
+
 .btn {
-color: white;
-font-weight: bold;
+    color: white;
+    font-weight: bold;
 }
+
 .card {
-background: transparent;
-border: none;
+    background: transparent;
+    border: none;
 }
-    .line-bot {
-        width: 90px; /* Adjust width as needed */
-        height: 2px; /* Adjust height as needed */
-        background-color: white; /* Adjust color as needed */
-        margin: 0 auto; /* This centers the line horizontally */
-    }
+
+.line-bot {
+    width: 90px;
+    /* Adjust width as needed */
+    height: 2px;
+    /* Adjust height as needed */
+    background-color: black;
+    /* Adjust color as needed */
+    margin: 0 auto;
+    /* This centers the line horizontally */
+}
 
 .line {
-height: 2px;
-background-color: whitesmoke;
-opacity: 0.5;
+    height: 2px;
+    background-color: rgb(95, 95, 95);
+    opacity: 0.5;
 }
+
 .resized-video {
-width: 100%; /* Adjust this value as needed */
-max-height: 300px; /* Adjust this value as needed */
+    width: 100%;
+    /* Adjust this value as needed */
+    max-height: 300px;
+    /* Adjust this value as needed */
 }
+
 body::-webkit-scrollbar {
-display: none;
+    display: none;
 }
+
 #progress-bar {
---progressbar: 0;
-height: 5px;
-background-color: rgb(57, 49, 218);
-width: var(--progressbar);
-position: fixed;
-z-index: 1;
-border-radius: 10px;
+    --progressbar: 0;
+    height: 5px;
+    background-color: rgb(57, 49, 218);
+    width: var(--progressbar);
+    position: fixed;
+    z-index: 1;
+    border-radius: 10px;
 
 }
 
 #spiral {
-display: none;
+    display: none;
 }
-@media (max-width: 991.98px) { /* Adjust the breakpoint as needed */
-.ne {
-font-size: 50px;
+
+@media (max-width: 991.98px) {
+
+    /* Adjust the breakpoint as needed */
+    .ne {
+        font-size: 50px;
+    }
 }
+
+@media (max-width: 360px) {
+
+    /* Adjust the breakpoint as needed */
+    .ne {
+        font-size: 20px;
+    }
 }
-@media (max-width: 360px) { /* Adjust the breakpoint as needed */
-.ne {
-font-size: 20px;
-}
-}
+
