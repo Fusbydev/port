@@ -142,7 +142,11 @@ video {
     /* Set width to 100% */
     display: flex;
     justify-content: center;
-    background-color: #acacac;
+    background-color: #e5e5f7;
+    opacity: 0.9;
+    background-image:  radial-gradient(#f6da6f 0.75px, transparent 0.75px), radial-gradient(#f6da6f 0.75px, #e5e5f7 0.75px);
+    background-size: 30px 30px;
+    background-position: 0 0,15px 15px;
     padding: 30px;
 }
 
@@ -236,7 +240,7 @@ footer {
     /* Adjust width as needed */
     height: 2px;
     /* Adjust height as needed */
-    background-color: black;
+    background-color: #ffb62e;
     /* Adjust color as needed */
     margin: 0 auto;
     /* This centers the line horizontally */
@@ -244,7 +248,7 @@ footer {
 
 .line {
     height: 2px;
-    background-color: rgb(95, 95, 95);
+    background-color: #ffb62e;
     opacity: 0.5;
 }
 
@@ -290,3 +294,20 @@ body::-webkit-scrollbar {
     }
 }
 
+
+h1 {
+    color: #f19f07!important;
+    background-color: rgb(54, 54, 54, 0);
+    padding: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom: 3px solid #f19f07;
+    border-left: 3px solid #f19f07;
+}
+
+.q1 {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    
+}
